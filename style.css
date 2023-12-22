@@ -1,0 +1,28 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: lightslategray;
+}
+.main{
+    height: 250px;
+    display: flex;
+    background: rgba(255, 255, 255, .08);
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+.clok{
+    background:rgba(255, 255, 255, 0.08);
+    font-size: 65px;
+    margin-inline: 40px;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+}
